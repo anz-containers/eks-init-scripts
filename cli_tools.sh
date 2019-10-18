@@ -11,5 +11,5 @@ brew tap weaveworks/tap
 brew install kubernetes-cli kubernetes-helm weaveworks/tap/eksctl
 
 
-source  ~/.bashrc
+source  ~/.bash_profile
 
