@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "# update kube config"
-aws eks update-kubeconfig --name EKS --region eu-west-1
+aws eks update-kubeconfig --name EKS --region us-east-1
 
 echo " # kubectl get nodes"
 kubectl get nodes 
