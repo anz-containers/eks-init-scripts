@@ -10,6 +10,6 @@ source  ~/.bashrc
 brew tap weaveworks/tap
 brew install kubernetes-cli kubernetes-helm weaveworks/tap/eksctl
 
+aws eks update-kubeconfig --name 'EKS-Lab'
 
-source  ~/.bash_profile
 
